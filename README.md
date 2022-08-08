@@ -3,7 +3,14 @@
 # bboard
 
 ## Features Included
-
+- Custom Admin dashboard
+- Search Functionality
+- Shopping Cart
+- Order Management
+- Coupon system
+- Payments Using Stripe
+- Responsive, mobile-friendly design
+- Much more...
 **1.Clone Repository & Install Packages**
 ```sh
 git clone https://github.com/shyam999/Django-ecommerce.git
