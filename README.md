@@ -5,11 +5,9 @@
 ## Features Included
 - Custom Admin dashboard
 - Search Functionality
-- Shopping Cart
-- Order Management
-- Coupon system
-- Payments Using Stripe
-- Responsive, mobile-friendly design
+- Add categories and announcements
+- Translation into two languages(ua/en)
+- Access restrictions
 - Much more...
 **1.Clone Repository & Install Packages**
 ```sh
