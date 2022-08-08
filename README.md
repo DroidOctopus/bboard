@@ -1,6 +1,6 @@
 # bboard
 
-**1.clone Repository & Install Packages**
+**1.Clone Repository & Install Packages**
 ```sh
 git clone https://github.com/shyam999/Django-ecommerce.git
 pip install -r requirements.txt
