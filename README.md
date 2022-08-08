@@ -1,5 +1,7 @@
 # bboard
 
+## Features Included
+
 **1.Clone Repository & Install Packages**
 ```sh
 git clone https://github.com/shyam999/Django-ecommerce.git
