@@ -1,4 +1,4 @@
-[![Python 3.6](https://img.shields.io/badge/python-3.8-yellow.svg)](https://www.python.org/downloads/release/python-360/)
+![Python 3.6](https://img.shields.io/badge/python-3.8-yellow.svg)](https://www.python.org/downloads/release/python-360/)
 ![Django 4.0](https://img.shields.io/badge/Django-4.0-green.svg)
 # bboard
 
