@@ -9,6 +9,7 @@
 - Translation into two languages(ua/en)
 - Access restrictions
 - Much more...
+- 
 **1.Clone Repository & Install Packages**
 ```sh
 git clone https://github.com/shyam999/Django-ecommerce.git
