@@ -1,0 +1,17 @@
+{% extends "layout/basic.html" %}
+
+{% load bootstrap4 %}
+{% load static i18n %}
+
+{% block title %}{% trans 'Редагувати оголошення' %}{% endblock %}
+
+{% block content %}
+<h2>{% trans 'Редагувати оголошення' %}</h2>
+<form method="post">
+    {% csrf_token %}
+    {% bootstrap_form form layout='horizontal' %}
+    {% bootstrap_formset formset layout='horizontal' %}
+    {% translate "Зберегти" as text_button %}
+    <button type="submit" class="btn btn-primary">{{ text_button }}</button>
+</form>
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends "layout/basic.html" %}
+
+{% load thumbnail %}
+{% load static %}
+{% load bootstrap4 %}
+{% load static i18n %}
+
+{% block title %}{% trans 'Профіль користувача' %}{% endblock %}
+
+{% block content %}
+<h2>{% trans 'Профіль користувача' %} {{ user.username }}</h2>
+{% if user.first_name and user.last_name %}
+<p>{% trans 'Доброго дня' %}, {{ user.first_name }} {{ user.last_name }}</p>
+{% else %}
+<p>{% trans 'Доброго дня' %}!</p>
+{% endif %}
+<h3>{% trans 'Ваші оголошення' %}</h3>
+{% if bbs %}
+<ul class="list-unstyled">
+    {% for bb in bbs %}
+    <li class="media my-5 p-3 border">
+        {% url 'main:profile_bb_detail' pk=bb.pk as url %}
+        <a href="{{ url }}{{ all }}">
+        {% if bb.image %}
+        <img class="mr-3" src="{% thumbnail bb.image 'default' %}">
+        {% else %}
+        <img class="mr-3" src="{% static 'main/empty.png' %}">
+        {% endif %}
+        </a>
+        <div class="media-body">
+            <h3><a href="{{ url }}{{ all }}">
+            {{ bb.title }}</a></h3>
+            <div>{{ bb.content }}</div>
+            <p class="text-right font-weight-bold">{{ bb.price }} UAH</p>
+            <p class="text-right font-italic">{{ bb.created_at }}</p>
+            <p class="rext_right mt-2">
+                <a href="{% url 'main:profile_bb_change' pk=bb.pk %}">
+                {% trans 'Редагувати' %}</a>
+                <a href="{% url 'main:profile_bb_delete' pk=bb.pk %}">
+                {% trans 'Видалити' %}</a>
+            </p>
+        </div>
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+<p><a href="{% url 'main:profile_bb_add' %}">{% trans 'Додати оголошення' %}</a></p>
+{% endblock %}

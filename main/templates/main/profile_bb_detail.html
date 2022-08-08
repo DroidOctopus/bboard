@@ -1,0 +1,54 @@
+{% extends "layout/basic.html" %}
+
+{% load bootstrap4 %}
+{% load static i18n %}
+
+{% block title %}{{ bb.title}} - {{ bb.rubric.name }}{% endblock %}
+
+{% block content %}
+<div class="container_fluid mt-3">
+    <div class="row">
+        {% if bb.image %}
+        <div class="col-md-auto"><img src="{{ bb.image.url }}"
+        class="main-image"></div>
+        {% endif %}
+        <div class="col">
+            <h2>{{ bb.title }}</h2>
+            <p>{{ bb.content }}</p>
+            <p class="font-weight-bold">{{ bb.price }} UAH</p>
+            <p>{{ bb.contacts }}</p>
+            <p class="text-right font-italic">{% trans 'Опубликовано' %}
+            {{ bb.created_at }}</p>
+        </div>
+    </div>
+</div>
+{% if ais %}
+<div class="d-flex justify-content-between flex-wrap mt-5">
+    {% for ai in ais %}
+    <div>
+        <img class="additional-image" src="{{ ai.image.url }}">
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+<p><a href="{% url 'main:by_rubric' pk=bb.rubric.pk %}"{{ all }}>
+{% trans 'Назад' %}</a></p>
+<h4 class="mt-5">{% trans 'Новий коментар' %}</h4>
+<form method="post">
+    {% csrf_token %}
+    {% bootstrap_form form layout='horizontal' %}
+    {% translate "Додати" as text_button %}
+    <button type="submit" class="btn btn-primary">{{ text_button }}</button>
+</form>
+{% if comments %}
+<div class="mt-5">
+    {% for comment in comments %}
+    <div class="my-w p-2 border">
+        <h5>{{ comment.author }}</h5>
+        <p>{{ comment.content }}</p>
+        <p class="text-right font-italic">{{ comment.created_at }}</p>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+{% endblock %}

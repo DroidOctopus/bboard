@@ -1,0 +1,11 @@
+{% extends "layout/basic.html" %}
+
+{% load static i18n %}
+
+{% block title %}{% trans 'Помилка при активації' %}{% endblock %}
+
+{% block content %}
+<h2>{% trans 'Активація' %}</h2>
+<p>{% trans "Активація користувача з таким ім'ям прошла неуспішно" %}</p>
+<p><a href="{% url 'main:register' %}">{% trans 'Зареєструватись повторно' %}</a></p>
+{% endblock %}

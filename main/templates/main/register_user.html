@@ -1,0 +1,16 @@
+{% extends "layout/basic.html" %}
+
+{% load bootstrap4 %}
+{% load static i18n %}
+
+{% block title %}{% trans 'Реєстрація' %}{% endblock %}
+
+{% block content %}
+<h2>{% trans 'Реєстрація нового користувача' %}</h2>
+<form method="post">
+    {% csrf_token %}
+    {% bootstrap_form form layout='horizontal' %}
+    {% translate "Зареєструватися" as text_button %}
+    <button type="submit" class="btn btn-primary">{{ text_button }}</button>
+</form>
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "layout/basic.html" %}
+
+{% load static i18n %}
+{% load bootstrap4 %}
+
+{% block title %}{% trans 'Вхід' %}{% endblock %}
+
+{% block content %}
+<h2>{% trans 'Вхід' %}</h2>
+{% if user.is_authenticated %}
+<p>{% trans 'Ви вже виконали вхід' %}.</p>
+{% else %}
+<form method="post">
+    {% csrf_token %}
+    {% bootstrap_form form layout='horizontal' %}
+    <input type="hidden" name="next" value="{{ next }}">
+    {% translate "Увійти" as text_button %}
+    <button type="submit" class="btn btn-primary">{{ text_button }}</button>
+    <a class="nav-link" href="{% url 'main:password_reset' %}">{% trans 'Скинути пароль' %}</a>
+</form>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,493 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-05 13:23+0300\n"
+"PO-Revision-Date: 2022-08-05 13:24+0300\n"
+"Last-Translator:   <>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
+
+#: .\bboard\settings.py:133
+msgid "Ukrainian"
+msgstr "Ukrainian"
+
+#: .\bboard\settings.py:134
+msgid "English"
+msgstr "English"
+
+#: .\main\admin.py:16
+msgid "Лист активації відправлено на електронну пошту"
+msgstr "Activation letter sent to e-mail"
+
+#: .\main\admin.py:20
+msgid "Відправка листа з активацією"
+msgstr "Sending an activation letter"
+
+#: .\main\admin.py:25
+msgid "Пройшли активацію?"
+msgstr "Activated?"
+
+#: .\main\admin.py:30
+msgid "Пройшов"
+msgstr "Passed"
+
+#: .\main\admin.py:31
+msgid "Не пройшов більш ніж 3 дні тому"
+msgstr "Did not pass more than 3 days ago"
+
+#: .\main\admin.py:32
+msgid "Не пройшов більш ніж тиждень тому"
+msgstr "Not pass more than a week ago"
+
+#: .\main\apps.py:11 .\main\templates\layout\basic.html:11
+msgid "Дошка оголошень"
+msgstr "Board"
+
+#: .\main\forms.py:15 .\main\forms.py:25
+msgid "Адреса електронної пошти"
+msgstr "E-mail address"
+
+#: .\main\forms.py:26
+msgid "Пароль"
+msgstr "Password"
+
+#: .\main\forms.py:29
+msgid "Пароль (повторно)"
+msgstr "Password (repeat)"
+
+#: .\main\forms.py:31
+msgid "Введіть той самий пароль ще раз для перевірки"
+msgstr "Enter the same password again to verify"
+
+#: .\main\forms.py:45
+msgid "Введений пароль не збігається"
+msgstr "The password you entered does not match"
+
+#: .\main\forms.py:67 .\main\models.py:16 .\main\models.py:34
+msgid "Надрубрика"
+msgstr "Super rubric"
+
+#: .\main\forms.py:96
+msgid "Введіть текст з картинки"
+msgstr "Enter text from the image"
+
+#: .\main\forms.py:97
+msgid "Текст невіриний"
+msgstr "The text is incorrect"
+
+#: .\main\models.py:11
+msgid "Назва"
+msgstr "Name"
+
+#: .\main\models.py:13
+msgid "Порядок"
+msgstr "Order"
+
+#: .\main\models.py:35
+msgid "Надрубрики"
+msgstr "Super rubrics"
+
+#: .\main\models.py:53
+msgid "Подрубрика"
+msgstr "Sub-rubric"
+
+#: .\main\models.py:54
+msgid "Подрубрики"
+msgstr "Sub-rubrics"
+
+#: .\main\models.py:60
+msgid "Пройшов активацію?"
+msgstr "Activated?"
+
+#: .\main\models.py:62
+msgid "Відправляти сповіщення про нові коментарі?"
+msgstr "Notify me of new comments?"
+
+#: .\main\models.py:76
+msgid "Рубрика"
+msgstr "Rubrics"
+
+#: .\main\models.py:77
+msgid "Товар"
+msgstr "Goods"
+
+#: .\main\models.py:78
+msgid "Опис"
+msgstr "Description"
+
+#: .\main\models.py:79
+msgid "Ціна"
+msgstr "Price"
+
+#: .\main\models.py:80
+msgid "Контакти"
+msgstr "Contacts"
+
+#: .\main\models.py:82 .\main\models.py:108
+msgid "Зображення"
+msgstr "Image"
+
+#: .\main\models.py:84
+msgid "Автор оголошення"
+msgstr "The author of the announcement"
+
+#: .\main\models.py:86
+msgid "Виводити в список?"
+msgstr "Display in the list?"
+
+#: .\main\models.py:88 .\main\models.py:124
+msgid "Опубліковано"
+msgstr "Published"
+
+#: .\main\models.py:90
+#| msgid "Мої оголошення"
+msgid "Мова оголошення"
+msgstr "My announcements"
+
+#: .\main\models.py:98 .\main\models.py:99 .\main\models.py:106
+#: .\main\models.py:118 .\main\templates\layout\basic.html:19
+msgid "Оголошення"
+msgstr "Advertisement"
+
+#: .\main\models.py:111
+msgid "Додаткові зображення"
+msgstr "Additional images"
+
+#: .\main\models.py:112
+msgid "Додаткове зображення"
+msgstr "Additional image"
+
+#: .\main\models.py:119
+msgid "Автор"
+msgstr "Author"
+
+#: .\main\models.py:120
+msgid "Вміст"
+msgstr "Contents"
+
+#: .\main\models.py:122
+msgid "Виводити на екран?"
+msgstr "Bring to the screen?"
+
+#: .\main\models.py:127
+msgid "Коментарі"
+msgstr "Comments"
+
+#: .\main\models.py:128
+msgid "Коментар"
+msgstr "Comment"
+
+#: .\main\templates\layout\basic.html:11 .\main\templates\layout\basic.html:68
+msgid "Головна"
+msgstr "Main"
+
+#: .\main\templates\layout\basic.html:24
+#: .\main\templates\main\register_done.html:8
+#: .\main\templates\main\register_user.html:6
+msgid "Реєстрація"
+msgstr "Registration"
+
+#: .\main\templates\layout\basic.html:30
+msgid "Профіль"
+msgstr "Profile"
+
+#: .\main\templates\layout\basic.html:32
+msgid "Мої оголошення"
+msgstr "My announcements"
+
+#: .\main\templates\layout\basic.html:33
+msgid "Змінити особисті дані"
+msgstr "Change personal data"
+
+#: .\main\templates\layout\basic.html:34
+msgid "Змінити пароль"
+msgstr "Password change"
+
+#: .\main\templates\layout\basic.html:36
+msgid "Вийти"
+msgstr "Exit"
+
+#: .\main\templates\layout\basic.html:38
+msgid "Видалити сторінку"
+msgstr "Delete the page"
+
+#: .\main\templates\layout\basic.html:43 .\main\templates\main\login.html:6
+#: .\main\templates\main\login.html:9
+msgid "Вхід"
+msgstr "Enter"
+
+#: .\main\templates\layout\basic.html:78 .\main\templates\main\about.html:6
+msgid "Про сайт"
+msgstr "About the site"
+
+#: .\main\templates\layout\basic.html:87
+msgid "читач."
+msgstr "reader"
+
+#: .\main\templates\main\about.html:7
+msgid "Сайт для публікування оголошень про продаж, розбитих на рубрики"
+msgstr "A site for publishing classified ads for sale"
+
+#: .\main\templates\main\about.html:8
+msgid "Всі права належать розробнику сайта &laquo;Django 3.0&raquo;."
+msgstr ""
+"All rights belong to the developer of the site &laquo;Django 3.0&raquo;."
+
+#: .\main\templates\main\activation_done.html:5
+msgid "Активація успішна"
+msgstr "Activation is successful"
+
+#: .\main\templates\main\activation_done.html:8
+#: .\main\templates\main\bad_signature.html:8
+#: .\main\templates\main\user_is_activated.html:8
+msgid "Активація"
+msgstr "Activation"
+
+#: .\main\templates\main\activation_done.html:9
+msgid "Користувач з таким ім'ям успішно активований."
+msgstr "The user with this name has been successfully activated."
+
+#: .\main\templates\main\activation_done.html:10
+#: .\main\templates\main\user_is_activated.html:10
+msgid "Увійти на сайт"
+msgstr "Log in to the site"
+
+#: .\main\templates\main\bad_signature.html:5
+msgid "Помилка при активації"
+msgstr "Activation error"
+
+#: .\main\templates\main\bad_signature.html:9
+msgid "Активація користувача з таким ім'ям прошла неуспішно"
+msgstr "Activation of the user with this name was unsuccessful"
+
+#: .\main\templates\main\bad_signature.html:10
+msgid "Зареєструватись повторно"
+msgstr "Register again"
+
+#: .\main\templates\main\by_rubric.html:17
+msgid "Пошук"
+msgstr "Search"
+
+#: .\main\templates\main\change_user_info.html:6
+msgid "Правка особистих даних"
+msgstr "Editing of personal data"
+
+#: .\main\templates\main\change_user_info.html:9
+msgid "Правка особистих даних користувача"
+msgstr "Editing personal user data"
+
+#: .\main\templates\main\change_user_info.html:13
+#: .\main\templates\main\profile_bb_change.html:14
+msgid "Зберегти"
+msgstr "Save"
+
+#: .\main\templates\main\delete_user.html:6
+#: .\main\templates\main\delete_user.html:9
+msgid "Видалення користувача"
+msgstr "Deleting a user"
+
+#: .\main\templates\main\delete_user.html:12
+#: .\main\templates\main\profile.html:40
+#: .\main\templates\main\profile_bb_delete.html:12
+msgid "Видалити"
+msgstr "Delete"
+
+#: .\main\templates\main\detail.html:20
+#: .\main\templates\main\profile_bb_detail.html:20
+msgid "Опубликовано"
+msgstr "Published"
+
+#: .\main\templates\main\detail.html:35
+#: .\main\templates\main\profile_bb_detail.html:35
+msgid "Назад"
+msgstr "Back"
+
+#: .\main\templates\main\detail.html:36
+#: .\main\templates\main\profile_bb_detail.html:36
+msgid "Новий коментар"
+msgstr "New comment"
+
+#: .\main\templates\main\detail.html:40
+#: .\main\templates\main\profile_bb_add.html:15
+#: .\main\templates\main\profile_bb_detail.html:40
+msgid "Додати"
+msgstr "Add"
+
+#: .\main\templates\main\index.html:9
+msgid "Головна сторінка"
+msgstr "Main page"
+
+#: .\main\templates\main\login.html:11
+msgid "Ви вже виконали вхід"
+msgstr "You are already logged in"
+
+#: .\main\templates\main\login.html:17
+msgid "Увійти"
+msgstr "Login"
+
+#: .\main\templates\main\login.html:19
+msgid "Скинути пароль"
+msgstr "Reset password"
+
+#: .\main\templates\main\logout.html:5 .\main\templates\main\logout.html:8
+msgid "Вихід"
+msgstr "Exit"
+
+#: .\main\templates\main\logout.html:9
+msgid "Ви успішно вийшли з сайту"
+msgstr "You have successfully exited the site"
+
+#: .\main\templates\main\password_change.html:6
+msgid "Зміна пароля"
+msgstr "Password change"
+
+#: .\main\templates\main\password_change.html:9
+msgid "Зміна пароля користувача"
+msgstr "Changing the user's password"
+
+#: .\main\templates\main\password_change.html:13
+msgid "Змінити"
+msgstr "Change"
+
+#: .\main\templates\main\profile.html:8 .\main\templates\main\profile.html:11
+msgid "Профіль користувача"
+msgstr "User profile"
+
+#: .\main\templates\main\profile.html:13 .\main\templates\main\profile.html:15
+msgid "Доброго дня"
+msgstr "Hello"
+
+#: .\main\templates\main\profile.html:17
+msgid "Ваші оголошення"
+msgstr "Your ads"
+
+#: .\main\templates\main\profile.html:38
+msgid "Редагувати"
+msgstr "Edit"
+
+#: .\main\templates\main\profile.html:47
+#: .\main\templates\main\profile_bb_add.html:9
+msgid "Додати оголошення"
+msgstr "Add an advertisement"
+
+#: .\main\templates\main\profile_bb_add.html:6
+msgid "Додати оголошення - Профіль користувача"
+msgstr "Add an advertisement - User profile"
+
+#: .\main\templates\main\profile_bb_change.html:6
+#: .\main\templates\main\profile_bb_change.html:9
+msgid "Редагувати оголошення"
+msgstr "Edit an advertisement"
+
+#: .\main\templates\main\profile_bb_delete.html:6
+msgid "Видалення оголошення"
+msgstr "Delete an advertisement"
+
+#: .\main\templates\main\profile_bb_delete.html:9
+msgid "Ви впевнені, що хочете видалити оголошення"
+msgstr "Are you sure you want to remove the advertisement"
+
+#: .\main\templates\main\register_done.html:5
+msgid "Реєстрацію завершено"
+msgstr "Registration is complete"
+
+#: .\main\templates\main\register_done.html:9
+msgid "Реєстрація користувача завершена"
+msgstr "User registration is complete"
+
+#: .\main\templates\main\register_done.html:10
+msgid ""
+"На адресу електронної пошти, вказаною користувачем, відправлено лист для "
+"активації"
+msgstr ""
+"An activation email has been sent to the email address specified by the user"
+
+#: .\main\templates\main\register_user.html:9
+msgid "Реєстрація нового користувача"
+msgstr "New user registration"
+
+#: .\main\templates\main\register_user.html:13
+msgid "Зареєструватися"
+msgstr "Sign up"
+
+#: .\main\templates\main\user_is_activated.html:5
+msgid "Користувач уже активований"
+msgstr "The user is already activated"
+
+#: .\main\templates\main\user_is_activated.html:9
+msgid "Користувач з таким ім'ям вже був активований раніше"
+msgstr "A user with this name has already been activated before"
+
+#: .\main\templates\registration\confirm_password.html:6
+#: .\main\templates\registration\email_sent.html:6
+#: .\main\templates\registration\email_sent.html:9
+#: .\main\templates\registration\password_confirmed.html:6
+#: .\main\templates\registration\reset_password.html:6
+msgid "Відновлення пароля"
+msgstr "Recovering the password"
+
+#: .\main\templates\registration\confirm_password.html:9
+msgid "Ваш пароль успішно змінено"
+msgstr "Your password has been successfully changed"
+
+#: .\main\templates\registration\email_sent.html:11
+msgid "Вам надіслано листа на електронну пошту для відновлення пароля."
+msgstr "An email has been sent to you to reset your password."
+
+#: .\main\templates\registration\password_confirmed.html:9
+#: .\main\templates\registration\reset_password.html:9
+msgid "Введіть свою електронну пошту"
+msgstr "Enter your email"
+
+#: .\main\templates\registration\password_confirmed.html:13
+#: .\main\templates\registration\reset_password.html:13
+msgid "Відправити"
+msgstr "Send"
+
+#: .\main\templates\registration\reset_subject.txt:3
+msgid "запрос на відновлення пароля"
+msgstr "password recovery request"
+
+#: .\main\views.py:106
+msgid "Коментар створено"
+msgstr "Comment created"
+
+#: .\main\views.py:110
+msgid "Коментар не створено"
+msgstr "No comment created"
+
+#: .\main\views.py:143
+msgid "Оголошення додано"
+msgstr "The announcement has been created"
+
+#: .\main\views.py:166
+msgid "Оголошення виправлено"
+msgstr "The announcement has been corrected"
+
+#: .\main\views.py:182
+msgid "Оголошення видалено"
+msgstr "The announcement has been removed"
+
+#: .\main\views.py:205
+msgid "Дані користувача змінені"
+msgstr "User data changed"
+
+#: .\main\views.py:222
+msgid "Пароль користувача змінено"
+msgstr "The user's password has been changed"
+
+#: .\main\views.py:251
+msgid "Користувач видалений"
+msgstr "User deleted"

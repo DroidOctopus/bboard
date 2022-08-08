@@ -1,0 +1,18 @@
+{% extends "layout/basic.html" %}
+
+{% load bootstrap4 %}
+{% load static i18n %}
+
+{% block title %}{% trans 'Додати оголошення - Профіль користувача' %}{% endblock %}
+
+{% block content %}
+<h2>{% trans 'Додати оголошення' %}</h2>
+<p>{{ LANGUAGE_CODE }}</p>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {% bootstrap_form form layout='horizontal' %}
+    {% bootstrap_formset formset layout='horizontal' %}
+    {% translate "Додати" as text_button %}
+    <button type="submit" class="btn btn-primary">{{ text_button }}</button>
+</form>
+{% endblock %}
